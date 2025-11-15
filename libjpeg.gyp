@@ -254,7 +254,7 @@
 								],
 							},
 						}],
-						[ 'OS=="mac"', {
+						[ 'OS=="mac" or OS=="ios"', {
 							'conditions': [
 								[ 'use_system_yasm==1', {
 									'variables': { 'yasm_path': '<!(which yasm)' }
